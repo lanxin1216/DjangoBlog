@@ -1,0 +1,15 @@
+django
+celery[redis,django]
+django-haystack
+django-simple-captcha
+jieba
+pyparsing
+pysolr
+requests
+Whoosh
+django-celery-beat
+django-celery-results
+django-redis
+psycopg2-binary
+django-simpleui
+django-meditor
