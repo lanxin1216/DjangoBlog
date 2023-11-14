@@ -16,7 +16,24 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+# 导入对应模块
+from django.conf import settings
+from django.urls import path, include
+# 静态文件和媒体文件配置导入static
+from django.conf.urls.static import static
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
 ]
+
+# 配置django-debug-toolbar
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns = urlpatterns + [path('__debug__/', include(debug_toolbar.urls))]
+
+# 静态文件和媒体文件配置
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+else:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

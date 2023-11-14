@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from myblog_django.email_settings import *
+
+from myblog_django.celery_settings import *
 
 import os
 
@@ -72,6 +75,8 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                # 把media全局注册进template模板中
+                'django.template.context_processors.media',
             ],
         },
     },
@@ -138,3 +143,10 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# 配置django-debug-toolbar
+if env == "dev":
+    INSTALLED_APPS.append('debug_toolbar')
+    MIDDLEWARE.append('debug_toolbar.middleware.DebugToolbarMiddleware')
+    INTERNAL_IPS = ['127.0.0.1']
+
