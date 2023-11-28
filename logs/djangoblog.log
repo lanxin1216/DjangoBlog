@@ -292,3 +292,39 @@
 [2023-11-21 19:30:27,212] INFO [djangoblog.utils.delete_sidebar_cache:207 utils] delete sidebar key:sidebara
 [2023-11-21 19:30:27,212] INFO [djangoblog.utils.delete_sidebar_cache:207 utils] delete sidebar key:sidebars
 [2023-11-21 19:30:27,212] INFO [djangoblog.utils.delete_sidebar_cache:207 utils] delete sidebar key:sidebars
+[2023-11-21 19:47:03,299] INFO [django.utils.autoreload.run_with_reloader:668 autoreload] Watching for file changes with StatReloader
+[2023-11-21 19:47:09,105] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:index_1
+[2023-11-21 19:47:09,117] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-11-21 19:47:09,158] INFO [djangoblog.utils.get_blog_setting:170 utils] set cache get_blog_setting
+[2023-11-21 19:47:09,158] INFO [djangoblog.utils.get_blog_setting:170 utils] set cache get_blog_setting
+[2023-11-21 19:47:09,395] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-11-21 19:47:09,408] INFO [blog.templatetags.blog_tags.load_sidebar:176 blog_tags] set sidebar cache.key:sidebari
+[2023-11-21 19:48:29,339] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-11-21 19:48:47,396] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-11-21 19:48:51,254] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-11-21 19:49:02,961] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-11-21 19:57:22,645] INFO [django.utils.autoreload.run_with_reloader:668 autoreload] Watching for file changes with StatReloader
+[2023-11-21 19:57:30,233] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:index_1
+[2023-11-21 19:57:30,242] INFO [blog.context_processors.seo_processor:17 context_processors] set processor cache.
+[2023-11-21 19:57:30,246] INFO [djangoblog.utils.get_blog_setting:170 utils] set cache get_blog_setting
+[2023-11-21 19:57:30,246] INFO [djangoblog.utils.get_blog_setting:170 utils] set cache get_blog_setting
+[2023-11-21 19:57:30,380] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-11-21 19:57:30,393] INFO [blog.templatetags.blog_tags.load_sidebar:176 blog_tags] set sidebar cache.key:sidebari
+[2023-11-21 19:57:30,426] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-11-21 19:57:39,432] INFO [blog.models.comment_list:150 models] set article comments:20
+[2023-11-21 19:57:39,461] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-11-21 19:57:39,468] INFO [blog.templatetags.blog_tags.load_sidebar:176 blog_tags] set sidebar cache.key:sidebarp
+[2023-11-21 19:57:42,147] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:archives
+[2023-11-21 19:57:44,046] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:category_list_MySQL_1
+[2023-11-21 19:57:44,049] INFO [blog.templatetags.blog_tags.load_sidebar:132 blog_tags] load sidebar
+[2023-11-21 19:57:44,055] INFO [blog.templatetags.blog_tags.load_sidebar:176 blog_tags] set sidebar cache.key:sidebarl
+[2023-11-21 19:57:48,370] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:category_list_JAVA_1
+[2023-11-21 19:57:49,208] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:category_list_Python_1
+[2023-11-21 19:57:52,088] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-11-21 19:57:56,439] INFO [blog.views.get_queryset_from_cache:72 views] set view cache.key:category_list_MySQL_1
+[2023-11-21 19:58:12,106] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-11-21 19:58:24,810] INFO [blog.models.comment_list:150 models] set article comments:20
+[2023-11-21 19:59:00,432] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-11-21 20:01:00,202] INFO [blog.models.comment_list:150 models] set article comments:20
+[2023-11-21 20:01:02,423] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
+[2023-11-21 20:18:15,501] INFO [blog.views.get_queryset_from_cache:67 views] get view cache.key:index_1
